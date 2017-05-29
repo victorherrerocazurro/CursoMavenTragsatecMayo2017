@@ -1,0 +1,19 @@
+# Workspace eclipse
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+Servers/
+
+# Proyecto eclipse
+.settings/
+.classpath
+.project
+bin/
+
+# Proyecto Maven
+target/
+
+# Temporales
+tmp/
+*.tmp
+*.bak
