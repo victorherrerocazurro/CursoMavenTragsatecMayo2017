@@ -1,4 +1,4 @@
-package com.cleformacion.holamundo;
+package com.cleformacion;
 
 import static org.junit.Assert.*;
 
@@ -8,7 +8,7 @@ public class MetodoFuncionalidadUT {
 
 	@Test
 	public void test() {
-		//fail("Not yet implemented");
+		fail("Not yet implemented");
 	}
 
 }
