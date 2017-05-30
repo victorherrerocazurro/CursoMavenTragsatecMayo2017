@@ -1,0 +1,23 @@
+# Eclipse JEE
+
+http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-jee-neon-3-win32-x86_64.zip&mirror_id=17
+
+# Gradle
+
+https://services.gradle.org/distributions/gradle-3.5-all.zip
+
+# Archiva
+
+http://ftp.cixug.es/apache/archiva/2.2.3/binaries/apache-archiva-2.2.3-bin.zip
+
+# Tomcat
+
+http://ftp.cixug.es/apache/tomcat/tomcat-8/v8.5.15/bin/apache-tomcat-8.5.15.zip
+
+# Jenkins
+
+http://mirrors.jenkins-ci.org/windows-stable/latest
+
+# Sonarqube
+
+https://sonarsource.bintray.com/Distribution/sonarqube/sonarqube-6.3.1.zip
