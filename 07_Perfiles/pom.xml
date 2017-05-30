@@ -12,9 +12,9 @@
 	<profiles>
 		<profile>
 			<id>PruebasAceptacion</id>
-			<activation>
+			<!-- <activation>
 				<activeByDefault>true</activeByDefault>
-			</activation>
+			</activation> -->
 			<properties>
 				<junit.version>4.12</junit.version>
 			</properties>

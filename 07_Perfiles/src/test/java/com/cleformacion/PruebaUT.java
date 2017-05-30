@@ -1,9 +1,7 @@
 package com.cleformacion;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
 
 import org.junit.Test;
@@ -15,7 +13,7 @@ public class PruebaUT {
 		// fail("Pruebas Unitarias");
 		Properties properties = new Properties();
 		try {
-			properties.load(new FileInputStream("src/test/resources/propiedades.properties"));
+			properties.load(this.getClass().getClassLoader().getResourceAsStream("propiedades.properties"));
 
 			System.out.println(properties.get("database.url"));
 		} catch (FileNotFoundException e) {
