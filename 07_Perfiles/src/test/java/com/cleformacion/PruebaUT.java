@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class PruebaUT {
@@ -13,8 +14,13 @@ public class PruebaUT {
 		// fail("Pruebas Unitarias");
 		Properties properties = new Properties();
 		try {
-			properties.load(this.getClass().getClassLoader().getResourceAsStream("propiedades.properties"));
+			properties.load(
+					this.getClass()
+						.getClassLoader()
+						.getResourceAsStream("propiedades.properties"));
 
+						//"src/test/resources/propiedades.properties"
+			
 			System.out.println(properties.get("database.url"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

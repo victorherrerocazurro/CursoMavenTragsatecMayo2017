@@ -1,0 +1,7 @@
+﻿Mavenizar el proyecto diviendo en modulos por capas
+	-Web
+	-Negocio
+	-Persistencia
+
+Crear un proyecto padre para incluir dependencias comunes y 
+poder gestionar todos los proyecto igual

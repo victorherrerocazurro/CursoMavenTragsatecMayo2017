@@ -4,6 +4,7 @@
 	<groupId>com.cleformacion</groupId>
 	<artifactId>07_Perfiles</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<properties>
 		<mi.propiedad>12</mi.propiedad>
 		<junit.version>4.11</junit.version>
